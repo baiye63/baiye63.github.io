@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>隐私权政策 · Privacy Policy · gemini-personal</title>
+<style>
+  :root { color-scheme: light; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 48px 24px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", sans-serif;
+    color: #1f2328; background: #ffffff; line-height: 1.7;
+  }
+  main { max-width: 720px; margin: 0 auto; }
+  h1 { font-size: 24px; font-weight: 600; margin: 0 0 6px; }
+  .sub { font-size: 14px; color: #57606a; margin: 0 0 8px; }
+  .tag { display: inline-block; font-size: 13px; color: #57606a;
+         border: 1px solid #d0d7de; border-radius: 999px; padding: 2px 10px; margin-bottom: 28px; }
+  h2 { font-size: 16px; font-weight: 600; margin: 30px 0 8px; }
+  p, li { font-size: 15px; color: #32383f; }
+  ul { padding-left: 20px; }
+  a { color: #0969da; }
+  .en { color: #57606a; font-size: 14px; display: block; margin-top: 2px; }
+  .box { background: #f6f8fa; border: 1px solid #d0d7de; border-radius: 8px;
+         padding: 14px 18px; margin: 20px 0; font-size: 14px; }
+  footer { margin-top: 44px; padding-top: 20px; border-top: 1px solid #d0d7de;
+           font-size: 13px; color: #57606a; }
+</style>
+</head>
+<body>
+<main>
+  <h1>隐私权政策</h1>
+  <p class="sub">Privacy Policy</p>
+  <div class="tag">适用应用 / Applies to: gemini-personal</div>
+
+  <div class="box">
+    简明版：本应用是开发者本人使用的本地命令行工具，<strong>不运营任何服务器，
+    不收集、不上传、不共享你的任何数据</strong>。授权令牌只保存在你自己的电脑上。
+    <span class="en">Summary: this is a local command-line tool used by its developer.
+    It runs no server and collects, uploads, or shares no data. Tokens stay on your own machine.</span>
+  </div>
+
+  <h2>1. 我们访问哪些 Google 数据</h2>
+  <p>当你通过 Google 账号授权本应用时，应用会获得以下权限：</p>
+  <ul>
+    <li><code>https://www.googleapis.com/auth/generative-language.retriever</code>
+        —— 以你的身份调用 Gemini API 生成内容</li>
+    <li><code>https://www.googleapis.com/auth/cloud-platform</code>
+        —— Google Cloud 平台基础访问权限</li>
+  </ul>
+  <p>应用<strong>不会</strong>读取你的 Gmail、Google 云端硬盘、通讯录、日历或任何其他
+     Google 服务中的内容。</p>
+  <p class="en">The app requests only the two scopes above. It does not access Gmail,
+     Google Drive, Contacts, Calendar, or any other Google service data.</p>
+
+  <h2>2. 数据如何被使用</h2>
+  <p>访问权限仅用于一个目的：把你输入到命令行的文本发送给 Gemini API，并把返回结果
+     显示给你。请求结果不会被记录到任何远程位置。</p>
+  <p class="en">The access is used solely to send your command-line input to the Gemini API
+     and display the response. Responses are not recorded anywhere remote.</p>
+
+  <h2>3. 数据存储与保留</h2>
+  <ul>
+    <li>OAuth <strong>访问令牌与刷新令牌</strong>以明文文件形式保存在运行本应用的电脑上
+        （文件路径由使用者本机决定），不会发送到任何第三方。</li>
+    <li>除上述令牌外，应用不保存任何用户数据。删除该令牌文件即等于清除全部本地记录。</li>
+    <li>本应用<strong>没有服务端数据库</strong>，因此不存在远程保留的数据。</li>
+  </ul>
+  <p class="en">Tokens are stored as a local file on the machine running the app. No other
+     data is stored, and there is no server-side database.</p>
+
+  <h2>4. 数据共享</h2>
+  <p>不会。应用不会将任何数据出售、出租或分享给第三方。数据仅在必要时于你的电脑与
+     Google API 之间直接传输。</p>
+  <p class="en">No. No data is sold, rented, or shared with third parties. Data is transmitted
+     only directly between your machine and Google's API.</p>
+
+  <h2>5. 如何撤回授权与删除数据</h2>
+  <ul>
+    <li>随时可在 <a href="https://myaccount.google.com/permissions" rel="noopener">
+        Google 账号的「第三方应用和服​务」页面</a>撤销本应用的访问权限。</li>
+    <li>删除本机保存的令牌文件即可移除全部本地数据。</li>
+  </ul>
+  <p class="en">Revoke access anytime at Google Account &rarr; Third-party apps &amp; services;
+     delete the local token file to remove all local data.</p>
+
+  <h2>6. Google API 服务用户数据政策</h2>
+  <p>本应用对从 Google API 获得的信息的使用遵守
+     <a href="https://developers.google.com/terms/api-services-user-data-policy" rel="noopener">
+     Google API 服务用户数据政策</a>，包括其中的有限使用（Limited Use）要求。</p>
+  <p class="en">The app's use of information received from Google APIs adheres to the
+     Google API Services User Data Policy, including the Limited Use requirements.</p>
+
+  <h2>7. 政策变更</h2>
+  <p>如本政策发生实质性变更，将在本页面更新并修改页脚的「最后更新」日期。</p>
+  <p class="en">Material changes will be posted on this page with an updated date below.</p>
+
+  <h2>8. 联系方式</h2>
+  <p>如有任何疑问：<a href="mailto:hehe07036588@gmail.com">hehe07036588@gmail.com</a></p>
+
+  <footer>
+    最后更新 / Last updated: 2026-09-14<br>
+    本页仅用于 gemini-personal 应用的 OAuth 授权说明。
+  </footer>
+</main>
+</body>
+</html>
